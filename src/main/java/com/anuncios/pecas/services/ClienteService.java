@@ -21,7 +21,7 @@ public class ClienteService {
 	 * @param id
 	 * @return retorna o cliente informada a parti do ID
 	 */
-	public Cliente buscar(Integer id) {
+	public Cliente find(Integer id) {
 		Optional<Cliente> obj = repo.findById(id);
 		return obj.orElseThrow(() -> new ObjectNotFoundException(
 				"Objeto não encontrado! Id: " + id + ", Tipo: " + Cliente.class.getName()));
