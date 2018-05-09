@@ -11,7 +11,6 @@ import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;
 
 import com.anuncios.pecas.domain.Categoria;
-import com.anuncios.pecas.domain.Cliente;
 import com.anuncios.pecas.dto.CategoriaDTO;
 import com.anuncios.pecas.repository.CategoriaRepository;
 import com.anuncios.pecas.services.exceptions.DataIntegrityException;

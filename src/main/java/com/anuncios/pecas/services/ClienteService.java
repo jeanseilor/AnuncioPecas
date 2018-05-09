@@ -17,7 +17,6 @@ import com.anuncios.pecas.domain.Endereco;
 import com.anuncios.pecas.domain.enums.TipoCliente;
 import com.anuncios.pecas.dto.ClienteDTO;
 import com.anuncios.pecas.dto.ClienteNewDTO;
-import com.anuncios.pecas.repository.CidadeRepository;
 import com.anuncios.pecas.repository.ClienteRepository;
 import com.anuncios.pecas.repository.EnderecoRepository;
 import com.anuncios.pecas.services.exceptions.DataIntegrityException;
