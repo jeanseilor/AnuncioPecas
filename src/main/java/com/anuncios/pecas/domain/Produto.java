@@ -26,7 +26,7 @@ public class Produto implements Serializable{
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Integer id;
 	
-	private String descricao;
+	private String nome;
 	
 	private Double preco;
 	
@@ -56,7 +56,7 @@ public class Produto implements Serializable{
 	public Produto(Integer id, String descricao, Double preco) {
 		super();
 		this.id = id;
-		this.descricao = descricao;
+		this.nome = descricao;
 		this.preco = preco;
 	}
 
@@ -71,13 +71,14 @@ public class Produto implements Serializable{
 	}
 
 
-	public String getDescricao() {
-		return descricao;
+
+	public String getNome() {
+		return nome;
 	}
 
 
-	public void setDescricao(String descricao) {
-		this.descricao = descricao;
+	public void setNome(String nome) {
+		this.nome = nome;
 	}
 
 
